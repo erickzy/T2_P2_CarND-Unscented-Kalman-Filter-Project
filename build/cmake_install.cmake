@@ -1,4 +1,4 @@
-# Install script for directory: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project
+# Install script for directory: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

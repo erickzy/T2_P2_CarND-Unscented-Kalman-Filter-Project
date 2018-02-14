@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/3.9.4/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
@@ -23,39 +23,39 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_42cdc/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_42cdc.dir/build.make CMakeFiles/cmTC_42cdc.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42cdc.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_42cdc.dir/testCCompiler.c.o   -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_42cdc
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42cdc.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_42cdc.dir/testCCompiler.c.o  -o cmTC_42cdc 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_4587f/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_4587f.dir/build.make CMakeFiles/cmTC_4587f.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4587f.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_4587f.dir/testCCompiler.c.o   -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4587f
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4587f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4587f.dir/testCCompiler.c.o  -o cmTC_4587f 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_f5173/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_f5173.dir/build.make CMakeFiles/cmTC_f5173.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f5173
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5173.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o  -o cmTC_f5173 
-Apple LLVM version 9.0.0 (clang-900.0.37)
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_cbfbd/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_cbfbd.dir/build.make CMakeFiles/cmTC_cbfbd.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cbfbd
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbfbd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o  -o cmTC_cbfbd 
+Apple LLVM version 9.0.0 (clang-900.0.38)
 Target: x86_64-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_f5173 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-302.3
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_cbfbd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3.1
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -63,26 +63,26 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_f5173/fast"]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_f5173.dir/build.make CMakeFiles/cmTC_f5173.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f5173]
-  ignore line: [/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5173.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o  -o cmTC_f5173 ]
-  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_cbfbd/fast"]
+  ignore line: [/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_cbfbd.dir/build.make CMakeFiles/cmTC_cbfbd.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cbfbd]
+  ignore line: [/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbfbd.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o  -o cmTC_cbfbd ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
   ignore line: [Target: x86_64-apple-darwin16.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_f5173 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_cbfbd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -93,11 +93,11 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.12.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f5173] ==> ignore
+    arg [cmTC_cbfbd] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_f5173.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_cbfbd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -116,17 +116,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_5cdaa/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_5cdaa.dir/build.make CMakeFiles/cmTC_5cdaa.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5cdaa.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5cdaa.dir/feature_tests.c.o   -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5cdaa
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cdaa.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5cdaa.dir/feature_tests.c.o  -o cmTC_5cdaa 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_1a012/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_1a012.dir/build.make CMakeFiles/cmTC_1a012.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a012.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_1a012.dir/feature_tests.c.o   -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1a012
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a012.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1a012.dir/feature_tests.c.o  -o cmTC_1a012 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -136,17 +136,17 @@ gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_047b7/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_047b7.dir/build.make CMakeFiles/cmTC_047b7.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_047b7.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_047b7.dir/feature_tests.c.o   -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_047b7
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_047b7.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_047b7.dir/feature_tests.c.o  -o cmTC_047b7 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_563f5/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_563f5.dir/build.make CMakeFiles/cmTC_563f5.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_563f5.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_563f5.dir/feature_tests.c.o   -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_563f5
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_563f5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_563f5.dir/feature_tests.c.o  -o cmTC_563f5 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,17 +156,17 @@ gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_d6ac8/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_d6ac8.dir/build.make CMakeFiles/cmTC_d6ac8.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6ac8.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d6ac8.dir/feature_tests.c.o   -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d6ac8
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6ac8.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d6ac8.dir/feature_tests.c.o  -o cmTC_d6ac8 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_b4734/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_b4734.dir/build.make CMakeFiles/cmTC_b4734.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4734.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b4734.dir/feature_tests.c.o   -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b4734
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4734.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b4734.dir/feature_tests.c.o  -o cmTC_b4734 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -174,36 +174,36 @@ gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_f9a48/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_f9a48.dir/build.make CMakeFiles/cmTC_f9a48.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9a48.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_f9a48.dir/testCXXCompiler.cxx.o -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f9a48
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a48.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f9a48.dir/testCXXCompiler.cxx.o  -o cmTC_f9a48 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_bfae6/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_bfae6.dir/build.make CMakeFiles/cmTC_bfae6.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfae6.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_bfae6.dir/testCXXCompiler.cxx.o -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bfae6
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfae6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bfae6.dir/testCXXCompiler.cxx.o  -o cmTC_bfae6 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_755e0/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_755e0.dir/build.make CMakeFiles/cmTC_755e0.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_755e0
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_755e0.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_755e0 
-Apple LLVM version 9.0.0 (clang-900.0.37)
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_10cbd/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_10cbd.dir/build.make CMakeFiles/cmTC_10cbd.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_10cbd
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10cbd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_10cbd 
+Apple LLVM version 9.0.0 (clang-900.0.38)
 Target: x86_64-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_755e0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-302.3
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_10cbd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3.1
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -211,26 +211,26 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_755e0/fast"]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_755e0.dir/build.make CMakeFiles/cmTC_755e0.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_755e0]
-  ignore line: [/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_755e0.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_755e0 ]
-  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_10cbd/fast"]
+  ignore line: [/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_10cbd.dir/build.make CMakeFiles/cmTC_10cbd.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_10cbd]
+  ignore line: [/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10cbd.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_10cbd ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
   ignore line: [Target: x86_64-apple-darwin16.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_755e0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_10cbd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -241,11 +241,11 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.12.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_755e0] ==> ignore
+    arg [cmTC_10cbd] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_755e0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_10cbd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
@@ -265,17 +265,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_c7963/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_c7963.dir/build.make CMakeFiles/cmTC_c7963.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c7963.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c7963.dir/feature_tests.cxx.o -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c7963
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7963.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7963.dir/feature_tests.cxx.o  -o cmTC_c7963 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_2ad4f/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_2ad4f.dir/build.make CMakeFiles/cmTC_2ad4f.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ad4f.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_2ad4f.dir/feature_tests.cxx.o -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2ad4f
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ad4f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ad4f.dir/feature_tests.cxx.o  -o cmTC_2ad4f 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -338,17 +338,17 @@ gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_2fb33/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_2fb33.dir/build.make CMakeFiles/cmTC_2fb33.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2fb33.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_2fb33.dir/feature_tests.cxx.o -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2fb33
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fb33.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2fb33.dir/feature_tests.cxx.o  -o cmTC_2fb33 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_799be/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_799be.dir/build.make CMakeFiles/cmTC_799be.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_799be.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_799be.dir/feature_tests.cxx.o -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_799be
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_799be.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_799be.dir/feature_tests.cxx.o  -o cmTC_799be 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -411,17 +411,17 @@ gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_6149b/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_6149b.dir/build.make CMakeFiles/cmTC_6149b.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6149b.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6149b.dir/feature_tests.cxx.o -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6149b
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6149b.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6149b.dir/feature_tests.cxx.o  -o cmTC_6149b 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_099fb/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_099fb.dir/build.make CMakeFiles/cmTC_099fb.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_099fb.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_099fb.dir/feature_tests.cxx.o -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_099fb
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_099fb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_099fb.dir/feature_tests.cxx.o  -o cmTC_099fb 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -484,17 +484,17 @@ gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_f4ecf/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_f4ecf.dir/build.make CMakeFiles/cmTC_f4ecf.dir/build
-gmake[1]: Entering directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4ecf.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f4ecf.dir/feature_tests.cxx.o -c /Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f4ecf
-/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ecf.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4ecf.dir/feature_tests.cxx.o  -o cmTC_f4ecf 
-gmake[1]: Leaving directory '/Users/erickzhang/Documents/Erickzy/Udacity/TERM2/T2_P2_CarND-Unscented-Kalman-Filter-Project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_f02b3/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_f02b3.dir/build.make CMakeFiles/cmTC_f02b3.dir/build
+gmake[1]: Entering directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f02b3.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f02b3.dir/feature_tests.cxx.o -c /Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f02b3
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f02b3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f02b3.dir/feature_tests.cxx.o  -o cmTC_f02b3 
+gmake[1]: Leaving directory '/Users/macbook/Documents/Udacity/Term2/CarND-Unscented-Kalman-Filter-Project-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

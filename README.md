@@ -60,13 +60,75 @@ OUTPUT: values provided by the c++ program to the simulator
 4. Run it: `./UnscentedKF` Previous versions use i/o from text files.  The current state uses i/o
 from the simulator.
 
-## Simulator Result
-* DATA1
-![](https://github.com/erickzy/T2_P2_CarND-Unscented-Kalman-Filter-Project/raw/master/img/1.png)
+## Editor Settings
+
+We've purposefully kept editor configuration files out of this repo in order to
+keep it as simple and environment agnostic as possible. However, we recommend
+using the following settings:
+
+* indent using spaces
+* set tab width to 2 spaces (keeps the matrices in source code aligned)
+
+## Code Style
+
+Please stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html) as much as possible.
+
+## Generating Additional Data
+
+This is optional!
+
+If you'd like to generate your own radar and lidar data, see the
+[utilities repo](https://github.com/udacity/CarND-Mercedes-SF-Utilities) for
+Matlab scripts that can generate additional data.
+
+## Project Instructions and Rubric
+
+This information is only accessible by people who are already enrolled in Term 2
+of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/c3eb3583-17b2-4d83-abf7-d852ae1b9fff/concepts/f437b8b0-f2d8-43b0-9662-72ac4e4029c1)
+for instructions and the project rubric.
+
+## How to write a README
+A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 
-* DATA2
-![](https://github.com/erickzy/T2_P2_CarND-Unscented-Kalman-Filter-Project/raw/master/img/2.png)
+##Compiling
+Code must compile without errors with cmake and make.
+
+The code under src folder can be compilied without error.
+
+##Accuracy
+For the older version of the project, your algorithm will be run against "sample-laser-radar-measurement-data-1.txt". We'll collect the positions that your algorithm outputs and compare them to ground truth data. Your px, py, vx, and vy RMSE should be less than or equal to the values [0.09, 0.09, 0.65, 0.65].
+
+For the older version, your algorithm will also be run against "sample-laser-radar-measurement-data-2.txt". The RMSE for the second data set should be <=[0.20, 0.20, 0.55, 0.55].
+
+This part really me strapped.
+I tuned the std_a_ and std_yawdd_ parameter to meet the RMSE requirement.
+Although the dataset2 RMSE(3) almost meet the requirement, but I can not figure out how to tune it.
+
+Also the NIS can meet the requirement.(5% above 7.8)
+![](capture1.png)
+
+##Follows the Correct Algorithm
+I followed the flow chart of below picture.
+![](UKF_flow.png)
+
+The result is attached below.
+Here is the dataset1 running results.
+![](dataset1.png)
+
+And this is the dataset2 running results.
+![](dataset2.png)
+
+
+##Code Efficiency
+I almost copied the code from the course and did little modification.
+
+
+##Update
+I make some update to meet the requirement of rubic.
+
+
+
 
 
 

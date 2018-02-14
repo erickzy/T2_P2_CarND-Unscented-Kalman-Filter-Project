@@ -1,4 +1,4 @@
-project(UnscentedKF)
+project(ExtendedKF)
 
 cmake_minimum_required (VERSION 3.5)
 
@@ -9,6 +9,7 @@ set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
 set(sources src/ukf.cpp src/main.cpp src/tools.cpp)
 
+include_directories(/usr/local/opt/openssl/include)
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin") 
 
